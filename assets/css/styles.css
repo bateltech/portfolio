@@ -807,7 +807,6 @@ body.dark-theme {
   color: black;
 }
 
-
 .contact__button:hover i{
   transform: translateX(.25rem);
 }
@@ -1519,5 +1518,4 @@ body.dark-theme {
   100%{
     opacity: 0;
   }
-
 }
