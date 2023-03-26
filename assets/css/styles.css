@@ -773,7 +773,6 @@ body.dark-theme {
 #submit-button{
   position: sticky;
   padding: 0.5rem;
-  text-transform: uppercase;
   border-radius: 1rem;
   background-color: hsla(200, 4%, 85%, 0.5);
   margin: 2px;
