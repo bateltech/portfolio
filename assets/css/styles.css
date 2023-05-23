@@ -586,8 +586,8 @@ body.dark-theme {
 
 .services__card{
   position: relative;
-  width: 229px;
-  height: 322px;
+  width: 16rem;
+  height: 21rem;
   background-color: var(--container-color);
   text-align: center;
   padding: 3.5rem 1rem;
