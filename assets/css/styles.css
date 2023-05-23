@@ -610,8 +610,8 @@ body.dark-theme {
 }
 
 .services__border{
-  width: 249px;
-  height: 342px;
+  width: 17rem;
+  height: 22rem;
   border: 1.8px solid var(--text-color-light);
   border-radius: 7.75rem;
   position: absolute;
