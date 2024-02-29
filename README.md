@@ -1,5 +1,7 @@
 # 💼 Batel Tech Responsive Portfolio Website
 
+## Features
+
 - Responsive Portfolio Website Design Using HTML CSS & JavaScript.
 - Includes a light and dark theme.
 - Contains animations when scrolling.
