@@ -30,7 +30,39 @@ const linkAction = () =>{
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
 /*=============== SWIPER PROJECTS ===============*/
+let swiperProjects = new Swiper(".projects__container", {
+    loop: true,
+    spaceBetween: 24,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false
+    },
+    mousewheel: true,
+    keyboard: true,
+    breakpoints: {
+        1200: {
+          slidesPerView: 2,
+          spaceBetween: -56,
+        },
+      },
+});
 
+// Pause autoplay on mouse enter
+swiperProjects.el.addEventListener('mouseenter', function() {
+    swiperProjects.autoplay.stop();
+});
+  
+// Resume autoplay on mouse leave
+swiperProjects.el.addEventListener('mouseleave', function() {
+    swiperProjects.autoplay.start();
+});
 
 /*=============== SWIPER TESTIMONIAL ===============*/
 let swiperTestimonial = new Swiper(".testimonial__container", {
