@@ -32,11 +32,11 @@
 
                 <div class="nav__menu" id="nav-menu">
                     <ul class="nav__list grid">
-                        <li class="nav__item">
+                        <!-- <li class="nav__item">
                             <a href="#home" class="nav__link active-link">
                                 <i class="ri-home-5-line"></i> Accueil
                             </a>
-                        </li>
+                        </li> -->
 
                         <li class="nav__item">
                             <a href="#skills" class="nav__link">
@@ -59,6 +59,12 @@
                         <li class="nav__item">
                             <a href="#projects" class="nav__link">
                                 <i class="ri-image-line"></i> Projets
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#pricing" class="nav__link">
+                                <i class="ri-price-tag-3-line"></i> Tarifs
                             </a>
                         </li>
 
@@ -100,7 +106,7 @@
                 <div class="home__container container grid section__border">
                     <div class="home__data grid">
                         <h1 class="home__title">
-                            Bienvenus, Nous Sommes Batel Tech,<br>
+                            Bienvenue! Nous Sommes Batel Tech,<br>
                             Un Groupe d'Ingénieurs Informatiques<br>
                             Basé en Algérie <br>
                         </h1>
@@ -183,7 +189,7 @@
                                <br> PROJETS ACHEVÉS
                             </h3>
                             <p class="home__info-number">
-                                4+
+                                5+
                             </p>
                         </div>
                         
@@ -624,45 +630,45 @@
             </section>
 
             <!--==================== PROJECTS ====================-->
-            <section class="projects section" id="projects" style="display: none;">
-                <h2 class="section__title">Projects</h2>
-                <span class="section__subtitle">Our most recent work</span>
+            <section class="projects section" id="projects">
+                <h2 class="section__title">Projets</h2>
+                <span class="section__subtitle">Nos plus récents projets</span>
 
                 <div class="container section__border">
                     <div class="projects__container swiper">
                         <div class="swiper-wrapper">
                             <!--==================== PROJECT 1 ====================-->
                             <div class="projects__content swiper-slide">
-                                <img src="../assets/img/project1.jpg" alt="projects image" class="projects__img">
+                                <img src="../assets/img/pierredelune.PNG" alt="lpdl project image" class="projects__img">
                                 <div>
                                     <span class="projects__subtitle">Web</span>
-                                    <h1 class="projects__title">Ecommece Store</h1>
-                                    <a href="#" class="projects__button">
-                                        View preview <i class="ri-arrow-right-line"></i>
+                                    <h1 class="projects__title">Boutique en ligne</h1>
+                                    <a href="https://www.lapierredelune.net" target="_blank" class="projects__button">
+                                        Voir l'aperçu <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
 
                             <!--==================== PROJECT 2 ====================-->
                             <div class="projects__content swiper-slide">
-                                <img src="../assets/img/project2.jpg" alt="projects image" class="projects__img">
+                                <img src="../assets/img/toocare.png" alt="projects image" class="projects__img">
                                 <div>
-                                    <span class="projects__subtitle">Mobile</span>
-                                    <h1 class="projects__title">Recruitment App</h1>
-                                    <a href="#" class="projects__button">
-                                        View preview <i class="ri-arrow-right-line"></i>
+                                    <span class="projects__subtitle">NoCode</span>
+                                    <h1 class="projects__title">TooCare</h1>
+                                    <a href="https://toocare.fr/" target="_blank" class="projects__button">
+                                        Voir l'aperçu <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
-
+                            
                             <!--==================== PROJECT 3 ====================-->
                             <div class="projects__content swiper-slide">
                                 <img src="../assets/img/project3.jpg" alt="projects image" class="projects__img">
                                 <div>
-                                    <span class="projects__subtitle">Domain 3</span>
-                                    <h1 class="projects__title">Project 3</h1>
+                                    <span class="projects__subtitle">Mobile</span>
+                                    <h1 class="projects__title">Recruitment App</h1>
                                     <a href="#" class="projects__button">
-                                        View preview <i class="ri-arrow-right-line"></i>
+                                        Voir l'aperçu <i class="ri-arrow-right-line"></i>
                                     </a>
                                 </div>
                             </div>
@@ -693,14 +699,67 @@
             </section>
 
             <!--==================== TESTIMONIAL ====================-->
-            <section class="testimonial section" style="display: none;">
+            <!-- <section class="testimonial section">
+                <h2 class="section__title">Tarifs</h2>
+                <span class="section__subtitle">Nos Tarifs</span>
 
+                <div class="contact__container container grid section__border">
+                    
+                </div>
+
+            </section> -->
+            <!--==================== PRICING ====================-->
+            <section class="pricing section" id="pricing">
+                <div class="container">
+                    <h2 class="section__title">Nos Tarifs</h2>
+                    <span class="section__subtitle">Choisissez le plan qui vous convient</span>
+                    <div class="pricing__container container grid section__border">
+                        <!-- Basic Plan -->
+                        <div class="pricing__plan">
+                            <h3 class="plan__title">Simple</h3>
+                            <p class="plan__price">€500</p>
+                            <ul class="plan__features">
+                                <li>Site vitrine simple</li>
+                                <li>Design responsive</li>
+                                <li>Optimisation SEO de base</li>
+                                <li>Support technique 1 mois</li>
+                            </ul>
+                            <button class="btn plan__btn">Choisir Plan</button>
+                        </div>
+                        
+                        <!-- Standard Plan -->
+                        <div class="pricing__plan">
+                            <h3 class="plan__title">Entreprise</h3>
+                            <p class="plan__price">€1,500</p>
+                            <ul class="plan__features">
+                                <li>Site web d'entreprise</li>
+                                <li>Intégration CMS</li>
+                                <li>SEO avancé</li>
+                                <li>Support technique 3 mois</li>
+                            </ul>
+                            <button class="btn plan__btn">Choisir Plan</button>
+                        </div>
+                        
+                        <!-- Premium Plan -->
+                        <div class="pricing__plan">
+                            <h3 class="plan__title">E-commerce</h3>
+                            <p class="plan__price">€3,000</p>
+                            <ul class="plan__features">
+                                <li>Boutique en ligne complète</li>
+                                <li>Intégrations de paiement</li>
+                                <li>Optimisation SEO complète</li>
+                                <li>Support technique 6 mois</li>
+                            </ul>
+                            <button class="btn plan__btn">Choisir Plan</button>
+                        </div>
+                    </div>
+                </div>
             </section>
-
+            
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
                 <h2 class="section__title">Contactez-Nous</h2>
-                <span class="section__subtitle">Get in Touch</span>
+                <span class="section__subtitle">Prenez Contact avec Nous !</span>
 
                 <div class="contact__container container grid section__border">
                     <div class="contact__content contact__left">
@@ -708,7 +767,7 @@
                             <i class="ri-chat-3-line"></i> Parlez-Nous
                         </h3>
 
-                        <div class="contact__info">
+                        <div class="contact__info"> 
                             <div class="contact__data">
                                 <span class="contact__data-title"> <i class="ri-mail-send-line"></i> Email</span>
                                 <span class="contact__data-info">batel.technology@gmail.com</span>

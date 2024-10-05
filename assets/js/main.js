@@ -206,9 +206,9 @@ let testimonialSwiper = new Swiper(".testimonial-swiper", {
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
-    duration: 2500,
+    duration: 1500,
     delay: 400,
-    //reset: true /* Animation Repeat */
+    reset: true /* Animation Repeat */
 })
 
 sr.reveal(`.home__data`)
@@ -229,6 +229,10 @@ sr.reveal(`.services__card`, {interval: 100})
 sr.reveal(`.projects__container`)
 
 sr.reveal(`.testimonial__container`)
+
+
+
+sr.reveal('.pricing__container', { interval: 100})
 
 sr.reveal('.contact__right', {origin: 'right'})
 sr.reveal('.contact__left', {origin: 'left'})
